@@ -1,132 +1,134 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 /*IPAD*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-    .img_fix2u{
-        background: url(img/Banner-Dec-2020-min-Ipad.png) 0 -4em no-repeat !important;
-        background-size: 100% auto !important;
-    }
-   .covidbanner{
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .img_fix2u {
+    background: url(img/Banner-Dec-2020-min-Ipad.png) 0 -4em no-repeat !important;
+    background-size: 100% auto !important;
+  }
+  .covidbanner {
     width: 48% !important;
     top: -14em !important;
     height: 31% !important;
     left: 10.68em !important;
-   }
-   .ProductReview{
-     display: none;
-    }
-    .CovidSafeBadge{
-        left: 17em !important;
-    }
-    i.fa.fa-check-circle.lidata {
-        font-size: 14px !important;
-    }
-    .RmD{
-        left: 0 !important;
-    }
-    .RP{
-        display: none;
-    }
+  }
+  .ProductReview {
+    display: none;
+  }
+  .CovidSafeBadge {
+    left: 17em !important;
+  }
+  i.fa.fa-check-circle.lidata {
+    font-size: 14px !important;
+  }
+  .RmD {
+    left: 0 !important;
+  }
+  .RP {
+    display: none;
+  }
 }
 /*All Phones*/
-@media only screen and (max-width : 428px){
-    .img_fix2u{
-        background: url(img/Banner-Dec-2020-min-mobile.png) no-repeat !important;
-        background-size: 100% auto !important;
-    }
-    .nonmobile{
-        display: none !important;
-    }
-    #mobile{
-        display: block !important;
-    }
-    .another{
-        transform: rotate(
-    -10deg);
-        z-index: 15;
-        background-color: rgb(226, 116, 56);
-        color: rgb(255, 255, 255);
-        width: 732.812px;
-        height: 396.875px;
-        min-height: 0px;
-        min-width: 0px;
-        max-height: none;
-        max-width: none;
-        transform-origin: 50% 50%;
-        opacity: 1;
-        transform: translate(0px, 0px);
-        visibility: visible;
-    }
-    .ProductReview{
-        display: none;
-    }
-    .lidata{
-        display: none !important;
-    }
-    .RP{
-      display: block !important;
+@media only screen and (max-width: 428px) {
+  .img_mobile_fix2u {
+    background: url(img/banner1112-min.png) no-repeat !important;
+    background-size: 100% auto !important;
+  }
+  .fusion-section-separator-spacer {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nonmobile {
+    display: none !important;
+  }
+  #mobile {
+    display: block !important;
+  }
+  .another {
+    transform: rotate(-10deg);
+    background-color: rgb(226, 116, 56);
+    color: rgb(255, 255, 255);
+    width: 732.812px;
+    height: 396.875px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    transform-origin: 50% 50%;
     position: relative;
-    top: -2em;
-    left: 1.2em;
+    left: -10em;
+    top: -6em;
+  }
+  .ProductReview {
+    display: none;
+  }
+  .lidata {
+    display: none !important;
+  }
+  .RP {
+    display: block !important;
+    position: relative;
+    top: -3.1em;
+    left: 2.2em;
+    width: 87%;
     font-weight: 700;
     font-size: 13px;
-    }
-    .covidbanner{
-      width: 63% !important;
-      height: 15em !important;
-      top: -4.4em !important;
-      left: 3em !important;
-    }
-    .covidLine {
-        height: 56px !important;
-        top: -0.5em !important;
-        left: 1.1em !important;
-    }
-    .fntSZ {
-      font-size: 21px !important;
-      left: 0.9em !important;
-      width: 80% !important;
-      top: 0em !important;
-    }
-    .CovidSafeBadge {
-        left: -2em !important;
-        top: -6em !important;
-    }
-    .RmD
-    {
-        width: 136px !important;
-        top: -4.5em !important;
-        left: 0.5em !important;
-    }
-    .whitelink{
-        font-size: 17px !important;
-    }
+  }
+  .covidbanner {
+    width: 67% !important;
+    height: 15em !important;
+    top: -41.8em !important;
+    left: 5em !important;
+  }
+  .covidLine {
+    height: 56px !important;
+    top: -0.5em !important;
+    left: 1.1em !important;
+  }
+  .fntSZ {
+    font-size: 21px !important;
+    left: 0.9em !important;
+    width: 80% !important;
+    top: 0em !important;
+  }
+  .CovidSafeBadge {
+    left: -2em !important;
+    top: -6em !important;
+  }
+  .RmD {
+    width: 182px !important;
+    top: -4.5em !important;
+    left: 0.5em !important;
+  }
+  .whitelink {
+    font-size: 17px !important;
+  }
 }
 
 /*Desktop Styles*/
-.nonmobile{
-    display: block;
+.nonmobile {
+  display: block;
 }
-#mobile{
-    display: none;
+#mobile {
+  display: none;
 }
-.RP{
-    display: none;
+.RP {
+  display: none;
 }
-.img_fix2u{
-    background: url(img/Banner-Dec-2020-min.png) 0 -8em no-repeat;
-    background-size: 100% auto;
+.img_fix2u {
+  background: url(img/Banner-Dec-2020-min.png) 0 -8em no-repeat;
+  background-size: 100% auto;
 }
-.imagecurve{
-    position: relative;
-    top: -12em;
+.imagecurve {
+  position: relative;
+  top: -12em;
 }
-.covidbanner{
+.covidbanner {
   border: 2px solid #fff;
   width: 31%;
   height: 55%;
@@ -140,92 +142,88 @@ body{
   box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
   z-index: 1;
 }
-.covidLine{
-   position: relative;
-    left: 1.3em;
-    border-left: 3px solid #e26625;
-    height: 56px;
+.covidLine {
+  position: relative;
+  left: 1.3em;
+  border-left: 3px solid #e26625;
+  height: 56px;
 }
 
-.fntSZ{
-   font-size: 26px;
-    font-family: sans-serif;
-    position: relative;
-    left: 0.7em;
-    width: 50%;
-    top: -0.2em;
+.fntSZ {
+  font-size: 26px;
+  font-family: sans-serif;
+  position: relative;
+  left: 0.7em;
+  width: 50%;
+  top: -0.2em;
 }
-.CovidSafeBadge{
-    position: relative;
-    left: 21.2em;
-    top: -5em;
+.CovidSafeBadge {
+  position: relative;
+  left: 21.2em;
+  top: -5em;
 }
-.wdcovid{
-    width: 18%;
+.wdcovid {
+  width: 18%;
 }
 
-.lidata
-{
-    font-size: 16px !important;
-    position: relative;
-    top: -5em;
-    font-weight: bolder!important;
+.lidata {
+  font-size: 16px !important;
+  position: relative;
+  top: -5em;
+  font-weight: bolder !important;
 }
-.RmD
-{ 
-    background-color: rgb(0, 122, 255);
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    white-space: normal;
-    width: 281.042px;
-    height: 53px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    text-align: center;
-    line-height: 53px;
-    letter-spacing: 0px;
-    font-weight: 700;
-    font-size: 18px;
-    box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
-    padding-left: 35px;
-    border-radius: 3px;
-    padding-right: 35px;
-    padding-top: 0px;
-    backdrop-filter: none;
-    filter: brightness(120%);
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-    border-width: 0px;
-    position: relative;
-    top: -1.5em;
-    text-align: center;
-    left: 2em;
+.RmD {
+  background-color: rgb(0, 122, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  white-space: normal;
+  width: 281.042px;
+  height: 53px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  text-align: center;
+  line-height: 53px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
+  padding-left: 35px;
+  border-radius: 3px;
+  padding-right: 35px;
+  padding-top: 0px;
+  backdrop-filter: none;
+  filter: brightness(120%);
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  visibility: visible;
+  border-width: 0px;
+  position: relative;
+  top: -1.5em;
+  text-align: center;
+  left: 2em;
 }
-.whitelink{
-    color: #fff;
-    text-decoration: none;
-    font-size: 22px;
+.whitelink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
 }
-.ProductReview
-{
-    position: relative;
-    top: -33em;
-    left: 48em;
+.ProductReview {
+  position: relative;
+  top: -33em;
+  left: 48em;
 }
-.PrT{
-    width: 40%;
+.PrT {
+  width: 40%;
 }
-.JTOH{
-    position: relative;
-    left: 7em;
+.JTOH {
+  position: relative;
+  left: 7em;
 }
-.leftlidata{
+.leftlidata {
   position: relative;
   left: 1em;
   top: 1.5em;
 }
-
