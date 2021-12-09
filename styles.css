@@ -3,7 +3,6 @@ html {
 }
 
 body{
-    height: 100%;
     overflow-x: hidden;
 }
 /*IPAD*/
@@ -15,8 +14,9 @@ body{
     }
    .covidbanner{
     width: 48% !important;
-    top: -18em !important;
+    top: -14em !important;
     height: 31% !important;
+    left: 9.5em !important;
    }
    .ProductReview{
      display: none;
@@ -96,41 +96,41 @@ body{
     top: -10em;
 }
 .covidbanner{
-    border: 2px solid #fff;
-    width: 31%;
-    height: 55%;
-    position: relative;
-    top: -39em;
-    border-radius: 0;
-    left: 3em;
-    background: #ffff;
-    padding: 10px;
-    border-radius: 16px;
-    box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
+  border: 2px solid #fff;
+  width: 31%;
+  height: 55%;
+  position: relative;
+  top: -35em;
+  border-radius: 0;
+  left: 8em;
+  background: #ffff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
+  z-index: 1;
 }
 .covidLine{
-    border-right: 4px solid #e26625;
+   position: relative;
+    left: 1.3em;
+    border-left: 3px solid #e26625;
     height: 56px;
-    position: relative;
-    float: left;
-    top: 0.5em;
-    left: 1em;
 }
 
 .fntSZ{
-    font-size: 26px;
+   font-size: 26px;
     font-family: sans-serif;
     position: relative;
-    left: 1.3em;
+    left: 0.7em;
     width: 50%;
+    top: -0.2em;
 }
 .CovidSafeBadge{
     position: relative;
     left: 19em;
-    top: -6em;
+    top: -5em;
 }
 .wdcovid{
-    width: 24%;
+    width: 20%;
 }
 
 .lidata
@@ -177,13 +177,13 @@ body{
 .whitelink{
     color: #fff;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24spx;
 }
 .ProductReview
 {
-    position: relative;
-    top: -44em;
-    left: 48em;
+  position: relative;
+  top: -42em;
+  left: 48em;
 }
 .PrT{
     width: 40%;
@@ -192,5 +192,9 @@ body{
     position: relative;
     left: 7em;
 }
-
+.leftlidata{
+  position: relative;
+  left: 1em;
+  top: 1.5em;
+}
 
