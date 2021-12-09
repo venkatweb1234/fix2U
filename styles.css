@@ -48,27 +48,29 @@ body{
         display: none !important;
     }
     .RP{
-        display: block !important;
-        position: relative;
-        top: -2em;
-        font-weight: 700;
-        font-size: 13px;
+      display: block !important;
+    position: relative;
+    top: -2em;
+    left: 1.2em;
+    font-weight: 700;
+    font-size: 13px;
     }
     .covidbanner{
-    width: 57% !important;
-    height: 27% !important;
-    top: -7em !important;
-    left: 3em !important;
+      width: 63% !important;
+      height: 15em !important;
+      top: -4.4em !important;
+      left: 3em !important;
     }
     .covidLine {
         height: 56px !important;
         top: -0.5em !important;
-        left: 1em !important;
+        left: 1.1em !important;
     }
     .fntSZ {
-        font-size: 16px !important;
-        left: 1.3em !important;
-        width: 54% !important;
+      font-size: 21px !important;
+      left: 0.9em !important;
+      width: 80% !important;
+      top: 0em !important;
     }
     .CovidSafeBadge {
         left: -2em !important;
@@ -78,7 +80,7 @@ body{
     {
         width: 136px !important;
         top: -4.5em !important;
-        left: 0em !important;
+        left: 0.5em !important;
     }
     .whitelink{
         font-size: 17px !important;
