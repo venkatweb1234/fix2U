@@ -8,15 +8,14 @@ body{
 /*IPAD*/
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
     .img_fix2u{
-        background: url(img/Banner-Dec-2020-Ipad.png) no-repeat !important;
-        background-size: 100% 90%!important;
-        top: -3em !important;
+        background: url(img/Banner-Dec-2020-min-Ipad.png) 0 -4em no-repeat !important;
+        background-size: 100% auto !important;
     }
    .covidbanner{
     width: 48% !important;
     top: -14em !important;
     height: 31% !important;
-    left: 9.5em !important;
+    left: 10.68em !important;
    }
    .ProductReview{
      display: none;
@@ -37,9 +36,31 @@ body{
 /*All Phones*/
 @media only screen and (max-width : 428px){
     .img_fix2u{
-        background: url(img/Banner-Dec-2020-mobile.png) no-repeat !important;
-        background-size: 100% 95%!important;
-        top: 0em !important;
+        background: url(img/Banner-Dec-2020-min-mobile.png) no-repeat !important;
+        background-size: 100% auto !important;
+    }
+    .nonmobile{
+        display: none !important;
+    }
+    #mobile{
+        display: block !important;
+    }
+    .another{
+        transform: rotate(
+    -10deg);
+        z-index: 15;
+        background-color: rgb(226, 116, 56);
+        color: rgb(255, 255, 255);
+        width: 732.812px;
+        height: 396.875px;
+        min-height: 0px;
+        min-width: 0px;
+        max-height: none;
+        max-width: none;
+        transform-origin: 50% 50%;
+        opacity: 1;
+        transform: translate(0px, 0px);
+        visibility: visible;
     }
     .ProductReview{
         display: none;
@@ -88,23 +109,31 @@ body{
 }
 
 /*Desktop Styles*/
+.nonmobile{
+    display: block;
+}
+#mobile{
+    display: none;
+}
 .RP{
     display: none;
 }
 .img_fix2u{
-    background: url(img/Banner-Dec-2020-min.png) no-repeat;
-    background-size: 100% 90%;
+    background: url(img/Banner-Dec-2020-min.png) 0 -8em no-repeat;
+    background-size: 100% auto;
+}
+.imagecurve{
     position: relative;
-    top: -10em;
+    top: -12em;
 }
 .covidbanner{
   border: 2px solid #fff;
   width: 31%;
   height: 55%;
   position: relative;
-  top: -35em;
+  top: -28.5em;
   border-radius: 0;
-  left: 8em;
+  left: 9em;
   background: #ffff;
   padding: 10px;
   border-radius: 16px;
@@ -128,11 +157,11 @@ body{
 }
 .CovidSafeBadge{
     position: relative;
-    left: 19em;
+    left: 21.2em;
     top: -5em;
 }
 .wdcovid{
-    width: 20%;
+    width: 18%;
 }
 
 .lidata
@@ -179,13 +208,13 @@ body{
 .whitelink{
     color: #fff;
     text-decoration: none;
-    font-size: 24spx;
+    font-size: 22px;
 }
 .ProductReview
 {
-  position: relative;
-  top: -42em;
-  left: 48em;
+    position: relative;
+    top: -33em;
+    left: 48em;
 }
 .PrT{
     width: 40%;
