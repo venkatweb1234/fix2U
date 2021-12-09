@@ -49,21 +49,13 @@ body {
   #mobile {
     display: block !important;
   }
-  .another {
-    transform: rotate(-10deg);
-    background-color: rgb(226, 116, 56);
-    color: rgb(255, 255, 255);
-    width: 732.812px;
-    height: 396.875px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    transform-origin: 50% 50%;
+  .imgmob{
     position: relative;
-    left: -10em;
     top: -6em;
+    left: -1em;
+    width: 107%;
   }
+ 
   .ProductReview {
     display: none;
   }
@@ -83,7 +75,7 @@ body {
     width: 67% !important;
     height: 15em !important;
     top: -41.8em !important;
-    left: 5em !important;
+    left: 1.6em !important;
   }
   .covidLine {
     height: 56px !important;
