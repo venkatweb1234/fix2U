@@ -37,6 +37,22 @@ body {
   }
 }
 /*All Phones*/
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .covidbanner {
+        margin-top: -2em;
+      }
+}
+@media only screen and (min-width: 412px) and (max-width: 869px) {
+    .covidbanner {
+        margin-top: -2em;
+      }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    .covidbanner {
+        margin-top: -4em;
+      }
+}
 @media only screen and (max-width: 428px) {
   .img_mobile_fix2u {
     background: url(img/banner1112-min.png) no-repeat !important;
