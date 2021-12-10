@@ -5,35 +5,7 @@ html {
 body {
   overflow-x: hidden;
 }
-@media (min-width: 2035px) { 
-    /* CSS */
-    .CovidSafeBadge{
-        left: 31.4em !important;
-    }
-    .ProductReview
-    {
-        top: -37em !important;
-        left: 60em !important;
-    }
-    .covidbanner{
-        top: -36.5em !important; 
-    }
-  }
 
-  @media (min-width: 1920px) { 
-    /* CSS */
-    .CovidSafeBadge{
-        left: 31.4em !important;
-    }
-    .ProductReview
-    {
-        top: -37em !important;
-        left: 60em !important;
-    }
-    .covidbanner{
-        top: -36.5em !important; 
-    }
-  }
 /*IPAD*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
     .covidbanner {
