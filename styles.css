@@ -5,6 +5,20 @@ html {
 body {
   overflow-x: hidden;
 }
+@media (min-width: 2035px) { 
+    /* CSS */
+    .CovidSafeBadge{
+        left: 31.4em !important;
+    }
+    .ProductReview
+    {
+        top: -37em !important;
+        left: 60em !important;
+    }
+    .covidbanner{
+        top: -36.5em !important; 
+    }
+  }
 /*IPAD*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
     .covidbanner {
@@ -140,13 +154,14 @@ body {
   top: -12em;
 }
 .covidbanner {
+    margin: 0 auto;
   border: 2px solid #fff;
   width: 31%;
   height: 55%;
   position: relative;
   top: -28.5em;
   border-radius: 0;
-  left: 9em;
+  left: -24%;
   background: #ffff;
   padding: 10px;
   border-radius: 16px;
