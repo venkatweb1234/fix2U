@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
 }
 
+
 /*IPAD*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px)  and (orientation: portrait)  {
   .covidbanner {
@@ -145,8 +146,35 @@ body {
 }
 
 /* (1920x1080) Full HD Display */
-@media screen and (max-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2560px)  {
   /* insert styles here */
+  .fntSZ{
+    width: 51% !important;
+  }
+  .CovidSafeBadge {
+    left: 79% !important;
+    top: -19% !important;
+  }
+  i.fa.fa-check-circle.lidata{
+    font-size: 21px !important;
+    top: -3% !important;
+    line-height: 45px !important;
+  }
+  .leftlidata{
+    left: 4% !important;
+    top: -19% !important;
+  }
+  .covidbanner{
+    height: 39% !important;
+    top: -55% !important;
+  }
+  .RmD{
+    top: -8% !important;
+    line-height: 67px !important;
+  }
+  .ProductReview{
+    top: -67% !important;
+  }
 }
 /*Desktop Styles*/
 .nonmobile {
@@ -196,8 +224,8 @@ body {
 }
 .CovidSafeBadge {
   position: relative;
-  left: 20.2em;
-  top: -6em;
+  left: 81%;
+  top: -32%;
 }
 .wdcovid {
   width: 19%;
@@ -255,7 +283,7 @@ body {
 }
 .leftlidata {
   position: relative;
-  left: 1em;
-  top: 1.5em;
+  left: 5%;
+  top: 11%;
   font-family: "Lato";
 }
