@@ -3,27 +3,43 @@ html {
 }
 
 body {
+  height: 100%;
   overflow-x: hidden;
 }
 
 /*IPAD*/
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  and (orientation: portrait)  {
   .covidbanner {
-    margin-left: 4em;
-    margin-top: -2em;
+    width: 45% !important;
+    height: 23% !important;
+    top: -27% !important;
+    left: unset !important;
+  }
+  .CovidSafeBadge {
+    position: relative;
+    left: 81% !important;
+    top: -30% !important;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .img_fix2u {
-    background: url(img/Banner-Dec-2020-min-Ipad.png) 0 -4em no-repeat !important;
-    background-size: 100% auto !important;
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .imgpad {
+    width: 104%;
+    position: absolute;
+    top: 31%;
+    left: -1%;
+  }
+  .nonmobile {
+    display: none !important;
+  }
+  #ipad {
+    display: block !important;
   }
   .covidbanner {
     margin-top: unset !important;
     width: 48% !important;
-    top: -14em !important;
+    top: -26% !important;
     height: 31% !important;
-    left: 10.68em !important;
+    left: unset !important;
   }
   .ProductReview {
     display: none;
@@ -37,26 +53,22 @@ body {
   .RP {
     display: none;
   }
+  .RmD {
+    line-height: 63px !important;
+    top: -9% !important;
+    height: 21% !important;
+    text-align: center !important;
+  }
+  .fntSZ {
+    width: 64% !important;
+  }
 }
 /*All Phones*/
-@media only screen and (min-width: 414px) and (max-width: 896px) {
-  .covidbanner {
-    margin-top: -4em !important;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 869px) {
-  .covidbanner {
-    top: -2em !important;
-  }
-}
 
-@media only screen and (min-width: 428px) and (max-width: 926px) {
-  .covidbanner {
-    margin-top: -4em !important;
-  }
-}
 @media only screen and (max-width: 428px) {
-  
+  .ipad {
+    display: none;
+  }
   .wdcovid {
     width: 23% !important;
   }
@@ -104,7 +116,7 @@ body {
   .covidbanner {
     width: 81% !important;
     height: 18em !important;
-    top: -38.5em !important;
+    top: -75% !important;
     left: unset !important;
   }
   .covidLine {
@@ -133,16 +145,12 @@ body {
 }
 
 /* (1920x1080) Full HD Display */
-@media  screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   /* insert styles here */
-
 }
 /*Desktop Styles*/
 .nonmobile {
   display: block;
-}
-#mobile {
-  display: none;
 }
 .RP {
   display: none;
@@ -157,32 +165,18 @@ body {
 }
 .covidbanner {
   margin: 0 auto;
-    width: 30%;
-    height: 55%;
-    position: absolute;
-    top: 19rem;
-    border-radius: 0;
-    left: 9.2rem;
-    padding: 10px;
-    border-radius: 16px;
-    box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
-    z-index: 1;
-    z-index: 16;
-    background: linear-gradient( 
-140deg, rgb(252, 252, 252) 0%, rgb(252, 252, 252) 3.43%, rgb(252, 252, 252) 6.86%, rgb(252, 252, 252) 10.29%, rgb(252, 252, 252) 13.72%, rgb(252, 252, 252) 17.15%, rgb(252, 252, 252) 20.58%, rgb(252, 252, 252) 24.01%, rgb(252, 252, 252) 27.44%, rgb(252, 252, 252) 30.87%, rgb(252, 252, 252) 34.3%, rgb(252, 252, 252) 37.73%, rgb(252, 252, 252) 41.16%, rgb(252, 252, 252) 44.59%, rgb(252, 252, 252) 48%, rgb(252, 252, 252) 48.14%, rgb(253, 253, 253) 48.28%, rgb(253, 253, 253) 48.42%, rgb(253, 253, 253) 48.56%, rgb(254, 254, 254) 48.7%, rgb(254, 254, 254) 48.84%, rgb(254, 254, 254) 48.98%, rgb(254, 254, 254) 49.12%, rgb(255, 255, 255) 49.26%, rgb(255, 255, 255) 49.4%, rgb(255, 255, 255) 49.54%, rgb(255, 255, 255) 49.68%, rgb(255, 255, 255) 49.82%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 53.57%, rgb(255, 255, 255) 57.14%, rgb(255, 255, 255) 60.71%, rgb(255, 255, 255) 64.28%, rgb(255, 255, 255) 67.85%, rgb(255, 255, 255) 71.42%, rgb(255, 255, 255) 74.99%, rgb(255, 255, 255) 78.56%, rgb(255, 255, 255) 82.13%, rgb(255, 255, 255) 85.7%, rgb(255, 255, 255) 89.27%, rgb(255, 255, 255) 92.84%, rgb(255, 255, 255) 96.41%, rgb(255, 255, 255) 100%);
-    width: 424.373px;
-    height: 324.603px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    overflow: hidden;
-    box-shadow: rgb(12 12 12 / 41%) 2px 2px 10px 0px;
-    border-radius: 10px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
+  border: 2px solid #fff;
+  width: 30%;
+  height: 48%;
+  position: relative;
+  top: -74%;
+  border-radius: 0;
+  left: -22.3%;
+  background: #ffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
+  z-index: 1;
 }
 .covidLine {
   position: relative;
@@ -193,13 +187,12 @@ body {
 }
 
 .fntSZ {
-    font-size: 33px;
-    font-family: Circular-Pro-Bold;
-    position: relative;
-    left: 0.3em;
-    width: 67%;
-    top: 0em;
-    font-weight: 800;
+  font-size: 33px;
+  font-family: Circular-Pro-Bold;
+  position: relative;
+  left: 2%;
+  width: 67%;
+  font-weight: 800;
 }
 .CovidSafeBadge {
   position: relative;
@@ -221,7 +214,7 @@ body {
   background-color: rgb(0, 122, 255);
   color: rgb(255, 255, 255);
   white-space: normal;
-  line-height: 54px;
+  line-height: 48px;
   font-weight: 700;
   font-size: 18px;
   font-family: Lato;
@@ -236,32 +229,33 @@ body {
   opacity: 1;
   transform: translate(0px, 0px);
   position: relative;
-  top: -1.7em;
+  top: -15%;
   width: 54%;
-  height: 21%;
+  height: 17%;
   text-align: center;
   margin: 0 auto;
 }
 .whitelink {
   color: #fff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 .ProductReview {
   position: relative;
-  top: -31em;
-  left: 48em;
+  top: -82%;
+  left: 56%;
+  width: 100%;
 }
 .PrT {
   width: 40%;
 }
 .JTOH {
   position: relative;
-  left: 7em;
+  left: 10%;
 }
 .leftlidata {
   position: relative;
   left: 1em;
   top: 1.5em;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
