@@ -146,14 +146,14 @@ body {
 }
 
 /* (1920x1080) Full HD Display */
-@media (min-width: 1920px) and (max-width: 2560px)  {
+@media screen and (min-width: 1401px) {
   /* insert styles here */
   .fntSZ{
     width: 51% !important;
   }
   .CovidSafeBadge {
     left: 79% !important;
-    top: -19% !important;
+    top: -22% !important;
   }
   i.fa.fa-check-circle.lidata{
     font-size: 21px !important;
@@ -165,7 +165,7 @@ body {
     top: -19% !important;
   }
   .covidbanner{
-    height: 39% !important;
+    height: 47% !important;
     top: -55% !important;
   }
   .RmD{
@@ -173,7 +173,7 @@ body {
     line-height: 67px !important;
   }
   .ProductReview{
-    top: -67% !important;
+    top: -75% !important;
   }
 }
 /*Desktop Styles*/
