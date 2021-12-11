@@ -8,10 +8,10 @@ body {
 
 /*IPAD*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-    .covidbanner {
-        margin-left: 4em;
-        margin-top: -2em;
-      }
+  .covidbanner {
+    margin-left: 4em;
+    margin-top: -2em;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .img_fix2u {
@@ -40,22 +40,26 @@ body {
 }
 /*All Phones*/
 @media only screen and (min-width: 414px) and (max-width: 896px) {
-    .covidbanner {
-        margin-top: -2em;
-      }
+  .covidbanner {
+    margin-top: -4em !important;
+  }
 }
 @media only screen and (min-width: 412px) and (max-width: 869px) {
-    .covidbanner {
-        margin-top: -2em;
-      }
+  .covidbanner {
+    top: -2em !important;
+  }
 }
 
 @media only screen and (min-width: 428px) and (max-width: 926px) {
-    .covidbanner {
-        margin-top: -4em;
-      }
+  .covidbanner {
+    margin-top: -4em !important;
+  }
 }
 @media only screen and (max-width: 428px) {
+  
+  .wdcovid {
+    width: 23% !important;
+  }
   .img_mobile_fix2u {
     background: url(img/banner1112-min.png) no-repeat !important;
     background-size: 100% auto !important;
@@ -70,13 +74,13 @@ body {
   #mobile {
     display: block !important;
   }
-  .imgmob{
+  .imgmob {
     position: relative;
     top: -6em;
     left: -1em;
-    width: 107%;
+    width: 109%;
   }
- 
+
   .ProductReview {
     display: none;
   }
@@ -85,37 +89,43 @@ body {
   }
   .RP {
     display: block !important;
-    position: relative;
-    top: -3.1em;
-    left: 2.2em;
-    width: 87%;
+    font-family: Lato;
+    height: auto;
+    width: 232.812px;
+    line-height: 20px;
+    letter-spacing: 0px;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 16px;
+    margin: 0 auto;
+    position: relative;
+    top: -2em;
+    left: 0.5em;
   }
   .covidbanner {
-    width: 67% !important;
-    height: 15em !important;
-    top: -37.8em !important;
-    left: 1.6em !important;
+    width: 81% !important;
+    height: 18em !important;
+    top: -38.5em !important;
+    left: unset !important;
   }
   .covidLine {
     height: 56px !important;
-    top: -0.5em !important;
+    top: 0.5em !important;
     left: 1.1em !important;
+    border-left: 4px solid #e26625 !important;
   }
   .fntSZ {
-    font-size: 21px !important;
-    left: 0.9em !important;
+    left: 0.4em !important;
     width: 80% !important;
     top: 0em !important;
+    font-size: 27px !important;
   }
   .CovidSafeBadge {
     left: -2em !important;
-    top: -6em !important;
+    top: -7.56em !important;
   }
   .RmD {
     width: 63%;
-    top: -4.5em !important;
+    top: -3.8em !important;
   }
   .whitelink {
     font-size: 17px !important;
@@ -141,14 +151,14 @@ body {
   top: -12em;
 }
 .covidbanner {
-    margin: 0 auto;
+  margin: 0 auto;
   border: 2px solid #fff;
-  width: 31%;
+  width: 30%;
   height: 55%;
   position: relative;
   top: -28.5em;
   border-radius: 0;
-  left: -24%;
+  left: -18rem;
   background: #ffff;
   padding: 10px;
   border-radius: 16px;
@@ -157,66 +167,66 @@ body {
 }
 .covidLine {
   position: relative;
-  left: 1.3em;
+  left: 0.2em;
   border-left: 3px solid #e26625;
-  height: 56px;
+  height: 73px;
+  top: -1em;
 }
 
 .fntSZ {
-  font-size: 26px;
-  font-family: sans-serif;
-  position: relative;
-  left: 0.7em;
-  width: 50%;
-  top: -0.2em;
+    font-size: 33px;
+    font-family: Circular-Pro-Bold;
+    position: relative;
+    left: 0.3em;
+    width: 67%;
+    top: 0em;
+    font-weight: 800;
 }
 .CovidSafeBadge {
   position: relative;
-  left: 21.2em;
-  top: -5em;
+  left: 20.2em;
+  top: -6em;
 }
 .wdcovid {
-  width: 18%;
+  width: 19%;
 }
 
 .lidata {
-  font-size: 16px !important;
+  font-size: 14px !important;
   position: relative;
-  top: -5em;
-  font-weight: bolder !important;
+  top: -7em;
+  font-weight: 800 !important;
+  letter-spacing: normal;
 }
 .RmD {
-    background-color: rgb(0, 122, 255);
-    color: rgb(255, 255, 255);
-    white-space: normal;
-    width: 281.042px;
-    height: 53px;
-    line-height: 45px;
-    font-weight: 700;
-    font-size: 18px;
-    box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
-    padding-left: 35px;
-    border-radius: 3px;
-    padding-right: 35px;
-    padding-top: 0px;
-    backdrop-filter: none;
-    filter: brightness(120%);
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    position: relative;
-    top: -1em;
- 
-
-   width: 63%;
-  height: 18%;
+  background-color: rgb(0, 122, 255);
+  color: rgb(255, 255, 255);
+  white-space: normal;
+  line-height: 54px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Lato;
+  box-shadow: rgb(0 0 0 / 15%) 5px 5px 10px 0px;
+  padding-left: 35px;
+  border-radius: 3px;
+  padding-right: 35px;
+  padding-top: 0px;
+  backdrop-filter: none;
+  filter: brightness(120%);
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  position: relative;
+  top: -1.7em;
+  width: 54%;
+  height: 21%;
   text-align: center;
   margin: 0 auto;
 }
 .whitelink {
   color: #fff;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
 }
 .ProductReview {
   position: relative;
@@ -234,4 +244,5 @@ body {
   position: relative;
   left: 1em;
   top: 1.5em;
+  font-family: 'Lato';
 }
