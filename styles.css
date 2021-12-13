@@ -22,6 +22,7 @@ body {
     top: -30% !important;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   .imgpad {
     width: 104%;
@@ -66,6 +67,42 @@ body {
 }
 /*All Phones*/
 
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 731px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+@media only screen and (min-width: 411px) and (max-width: 832px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .covidbanner{
+    margin-top: -30% !important;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .covidbanner{
+    top: -62% !important;
+  }
+}
 @media only screen and (max-width: 428px) {
   .ipad {
     display: none;
@@ -117,7 +154,7 @@ body {
   .covidbanner {
     width: 81% !important;
     height: 18em !important;
-    top: -75% !important;
+    top: -75%;
     left: unset !important;
   }
   .covidLine {
