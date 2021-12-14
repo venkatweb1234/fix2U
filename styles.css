@@ -203,14 +203,14 @@ body {
   }
   .covidbanner{
     height: 47% !important;
-    top: -55% !important;
+    top: -4% !important;
   }
   .RmD{
     top: -8% !important;
     line-height: 67px !important;
   }
   .ProductReview{
-    top: -75% !important;
+    top: -18% !important;
   }
 }
 /*Desktop Styles*/
