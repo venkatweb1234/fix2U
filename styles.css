@@ -22,6 +22,9 @@ body {
     left: 81% !important;
     top: -30% !important;
   }
+  .ProductReview{
+    display: none !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
@@ -215,7 +218,7 @@ body {
     line-height: 67px !important;
   }
   .ProductReview{
-    display: none !important;
+    top: -106% !important;
   }
 }
 /*Desktop Styles*/
