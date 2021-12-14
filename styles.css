@@ -208,13 +208,14 @@ body {
   .covidbanner{
     height: 47% !important;
     top: -4% !important;
+    margin-top: 16% !important;
   }
   .RmD{
     top: -8% !important;
     line-height: 67px !important;
   }
   .ProductReview{
-    top: -18% !important;
+    top: -106% !important;
   }
 }
 /*Desktop Styles*/
@@ -239,6 +240,7 @@ body {
   height: 48%;
   position: relative;
   top: -9%;
+  margin-top: 9%;
   border-radius: 0;
   left: -22.3%;
   background: #ffff;
@@ -311,7 +313,7 @@ body {
 }
 .ProductReview {
   position: relative;
-  top: -16%;
+  top: -101%;
   left: 56%;
   width: 100%;
 }
