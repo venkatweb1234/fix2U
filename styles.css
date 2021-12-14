@@ -209,16 +209,18 @@ body {
     top: -19% !important;
   }
   .covidbanner{
-    height: 47% !important;
-    top: -4% !important;
-    margin-top: 16% !important;
+    min-height: 27em !important;
+    margin-top: -5% !important;
   }
   .RmD{
     top: -8% !important;
     line-height: 67px !important;
   }
   .ProductReview{
-    top: -106% !important;
+    top: -38em !important;
+  }
+  .JTOH{
+    left: 13% !important
   }
 }
 /*Desktop Styles*/
