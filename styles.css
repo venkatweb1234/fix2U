@@ -8,6 +8,7 @@ body {
 
 
 /*IPAD*/
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px)  and (orientation: portrait)  {
   .covidbanner.covidIpadpro {
     width: 45% !important;
@@ -241,8 +242,8 @@ body {
 .covidbanner {
   margin: 0 auto;
   border: 2px solid #fff;
-  width: 30%;
-  height: 18em;
+  width: 32%;
+  min-height: 18.2em;
   position: relative;
   top: -9%;
   margin-top: -34%;
