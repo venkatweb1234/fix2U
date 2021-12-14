@@ -196,7 +196,7 @@ body {
 .covidbanner{
   min-width: 38%;
   left: -26.5% !important;
-  top: -25em !important;
+  padding-top: 1em !important;
 }
 .ProductReview{
   margin-top: 3em !important;
