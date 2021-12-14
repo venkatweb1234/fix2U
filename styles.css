@@ -192,7 +192,7 @@ body {
 
 /* (1920x1080) Full HD Display */
 /*Mac Book 13 pro and 15 pro style*/
-@media only screen and (min-device-width:1440px) and (max-device-width:900px){
+@media only screen and (min-device-width:1440px) and (max-device-height:900px){
 .covidbanner{
   min-width: 38%;
   left: -26.5% !important;
