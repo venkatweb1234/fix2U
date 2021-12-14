@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -12,8 +11,8 @@ body {
 @media only screen and (min-width: 1024px) and (max-width: 1366px)  and (orientation: portrait)  {
   .covidbanner.covidIpadpro {
     width: 45% !important;
-    margin-top: 89% !important;
-    height: 23% !important;
+    margin-top: 16% !important;
+    min-height: 19em !important;
     top: 0% !important;
     left: unset !important;
   }
@@ -41,10 +40,10 @@ body {
     display: block !important;
   }
   .covidbanner.covidIpad {
-    margin-top: 87% !important;
+    margin-top: 30% !important;
     width: 48% !important;
     top: -26% !important;
-    height: 31% !important;
+    min-height: 19.2rem !important;
     left: unset !important;
   }
   .ProductReview {
@@ -73,13 +72,13 @@ body {
 
 @media only screen and (min-width: 375px) and (min-height: 667px) {
   .covidbanner{
-    margin-top: -1% !important;
+    margin-top: -38% !important;
     top: unset !important;
   }
 }
 @media only screen and (min-width: 414px) and (min-height: 736px) {
   .covidbanner{
-    margin-top: -1% !important;
+    margin-top: -48% !important;
     top: unset !important;
   }
 }
@@ -102,12 +101,13 @@ body {
 }
 @media only screen and (min-width: 320px) and (min-height: 568px) {
   .covidbanner.phone320{
-    top: -91% !important;
+    top: -30em !important;
+    height: 17em !important;
   }
 }
 @media only screen and (min-width: 375px) and (min-height: 812px) {
   .covidbanner{
-    margin-top: 36% !important;
+    margin-top: -38% !important;
   }
 }
 @media only screen and (max-width: 428px) {
@@ -240,12 +240,12 @@ body {
   margin: 0 auto;
   border: 2px solid #fff;
   width: 30%;
-  height: 48%;
+  height: 18em;
   position: relative;
   top: -9%;
-  margin-top: 9%;
+  margin-top: -34%;
   border-radius: 0;
-  left: -22.3%;
+  left: -22.5%;
   background: #ffff;
   padding: 10px;
   border-radius: 10px;
